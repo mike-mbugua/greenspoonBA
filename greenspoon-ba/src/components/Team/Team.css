@@ -1,0 +1,25 @@
+.team__container{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team__card{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.span-style{
+    color: var(--secondary-color);
+    font-weight: 600;
+    align-items: center;
+
+
+}
+.team__card img{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+}

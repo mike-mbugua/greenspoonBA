@@ -12,8 +12,8 @@ function Nav() {
         </div>
     <div className="navLinks">
         <Link to={"/team"}>Team</Link>
-        {/* <Link to={"#"}>Events</Link>
-        <Link to={"#"}>Schedule</Link> */}
+        <Link to={"/events"}>Events</Link> 
+        <Link to={"/schedule"}>Schedule</Link> 
 
     </div>
 
