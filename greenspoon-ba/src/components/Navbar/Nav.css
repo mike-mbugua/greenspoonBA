@@ -1,0 +1,25 @@
+.navBar__container{
+    display: flex;
+    height: 50px;
+    background-color: var(--secondary-color);
+    justify-content: center;
+
+}
+.green-logo{
+    height: 20px;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.navLinks a{
+    display: flex;
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: var(--ast-global-color-5);
+    text-decoration: none;
+    justify-content: space-around;
+    font-weight: 500;
+}
