@@ -1,25 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200;300&display=swap');
 .team__container{
-    margin: 20px;
+    margin: 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 8px;
+    justify-content: center;
+    width: calc(100%-20px);
+    /* justify-content: space-between; */
 }
 .team__card{
+    cursor: pointer;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 300px;
     width: 300px;
+    background-color: var(--ast-global-color-6);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    overflow: hidden;
+    gap: 8px;
 }
+
 .span-style{
     color: var(--secondary-color);
     font-weight: 600;
     align-items: center;
-
-
 }
 .team__card img{
-    width: 100%;
-    height: 70%;
+    width: 50%;
+    height: auto;
     border-radius: 50%;
+}
+.team__card h4,p{
+    color: var(--ast-global-color-3);
+}
+.team__card h2{
+    font-size: 1.1rem;
+    font-family: 'Dancing Script', cursive;
+
+}
+.team__lead{
+    border: 2px solid var(--ast-global-color-6);
+}
+
+.team__lead h2{
+    font-family: 'Dancing Script', cursive;
+    /* color: var(--ast-global-color-5); */
+}
+@media(max-width:576px){
+    .team__container{
+        margin: 0px;
+        width: 100%;
+        justify-content: center;
+    }
+    .team__card{
+        width: 100%;
+        height: 300px;
+    }
 }

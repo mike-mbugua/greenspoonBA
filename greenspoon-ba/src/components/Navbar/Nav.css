@@ -23,3 +23,17 @@
     justify-content: space-around;
     font-weight: 500;
 }
+@media(max-width:576px){
+    .navbar__main-container img{
+        width: 100%;
+    }
+    .navLinks a{
+        display: flex;
+        margin-left: 10px;
+        text-transform: uppercase;
+        color: var(--ast-global-color-5);
+        text-decoration: none;
+        justify-content: space-around;
+        font-weight: 500;
+    }
+}
