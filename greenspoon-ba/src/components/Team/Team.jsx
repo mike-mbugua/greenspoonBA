@@ -5,6 +5,7 @@ import delvin from './../../assets/images/Delvin Greenspoon 20230708_073717.jpg'
 import kiki from './../../assets/images/Kiki Greenspoon 20230708_073657.jpg'
 import mary from './../../assets/images/Mary Greenspoon 20230708_083258.jpg'
 import daisy from './../../assets/images/daisy.jpg'
+import charlton from './../../assets/images/charlton.jpg'
 function Team({name,image,email,phone,}) {
   return (
     <div>
@@ -58,7 +59,7 @@ function Team({name,image,email,phone,}) {
         </div>
 
         <div className="team__card">
-          <img src="" alt="" />
+          <img src={charlton} alt="" />
           <h2>Charlton Mawira</h2>
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: mawiracharlton@gmail.com</p>
