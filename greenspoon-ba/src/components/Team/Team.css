@@ -1,116 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200;300&display=swap');
-.team__container{
-    margin: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-    width: calc(100%-20px);
-    /* justify-content: space-between; */
-}
-.team__card{
-    cursor: pointer;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    width: 300px;
-    background-color: var(--ast-global-color-6);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    border-radius: 20px;
-    border: 1px solid var(--secondary-color);
-    overflow: hidden;
-    gap: 8px;
+
+.team__container {
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  width: calc(100% - 20px);
 }
 
-.span-style{
-    color: var(--secondary-color);
-    font-weight: 600;
-    align-items: center;
+.team__card {
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: var(--ast-global-color-6);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 20px;
+  border: 1px solid var(--secondary-color);
+  overflow: hidden;
+  gap: 8px;
 }
-.team__card img{
+
+.span-style {
+  color: var(--secondary-color);
+  font-weight: 600;
+  align-items: center;
+}
+
+.team__card img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team__card h4,
+.team__card p {
+  color: var(--ast-global-color-3);
+}
+
+.team__card h2 {
+  font-size: 1.1rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.team__lead {
+  border: 2px solid var(--ast-global-color-6);
+}
+
+.team__lead h2 {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Media Queries */
+
+/* Small devices (up to 576px) */
+@media only screen and (max-width: 576px) {
+  .team__card {
+    width: 100%;
+  }
+}
+
+/* Medium devices (between 577px and 768px) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .team__card {
     width: 50%;
-    height: auto;
-    border-radius: 50%;
-}
-.team__card h4,p{
-    color: var(--ast-global-color-3);
-}
-.team__card h2{
-    font-size: 1.1rem;
-    font-family: 'Dancing Script', cursive;
-
-}
-.team__lead{
-    border: 2px solid var(--ast-global-color-6);
+  }
 }
 
-.team__lead h2{
-    font-family: 'Dancing Script', cursive;
-    /* color: var(--ast-global-color-5); */
+/* Large devices (between 769px and 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .team__card {
+    width: 33.33%;
+  }
 }
-@media (max-width: 576px) {
-    .team__card {
-      width: 100%;
-    }
-    .team__card img{
-        width: 30%;
-        height: auto;
-        border-radius: 50%;
-        margin-top: 20px;
-    }
-    .team__card h2{
-        font-size: 0.9rem;
-        font-family: 'Dancing Script', cursive;
-    
-    }
-    .team__card{
-        cursor: pointer;
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        height: 250px;
-        width: 300px;
-        background-color: var(--ast-global-color-6);
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        border-radius: 20px;
-        border: 1px solid var(--secondary-color);
-        overflow: hidden;
-        gap: 8px;
-    }
+
+/* Extra-large devices (above 992px) */
+@media only screen and (min-width: 993px) {
+  .team__card {
+    width: 25%;
   }
-  
-  /* Medium devices (between 577px and 768px) */
-  @media (min-width: 577px) and (max-width: 768px) {
-    .team__card {
-      width: 50%;
-    }
-    .team__card{
-        cursor: pointer;
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        height: 250px;
-        width: 300px;
-        background-color: var(--ast-global-color-6);
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        border-radius: 20px;
-        border: 1px solid var(--secondary-color);
-        overflow: hidden;
-        gap: 8px;
-    }
-  }
-  
-  /* Large devices (between 769px and 992px) */
-  @media (min-width: 769px) and (max-width: 992px) {
-    .team__card {
-      width: 33.33%;
-    }
-  }
-  
-  /* Extra-large devices (above 992px) */
-  @media (min-width: 993px) {
-    .team__card {
-      width: 25%;
-    }
 }
