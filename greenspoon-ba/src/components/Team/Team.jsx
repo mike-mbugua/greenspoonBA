@@ -8,6 +8,7 @@ import daisy from './../../assets/images/daisy.jpg'
 import charlton from './../../assets/images/charlton.jpg'
 import paul from './../../assets/images/paul.jpg'
 function Team({name,image,email,phone,}) {
+  
   return (
     <div className='team-main'>
       <p>We are a Strong,Energetic team consisting of young people passionately Educating people about Greenspoon and how to make shopping easy through it. </p>
@@ -29,7 +30,7 @@ function Team({name,image,email,phone,}) {
           <h2>Michael Kamiri Mbugua</h2>
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: kamirimichael369@gmail.com</p>
-          <p><span className="span-style">Phone</span>:0702405186</p>
+          <a href='tel:0702405186'><span className="span-style">Phone</span>:0702405186</a>
         </div>
 
         
