@@ -72,7 +72,7 @@ function Team({name,image,email,phone,}) {
         </div>
 
         <div className="team__card">
-          <img src={paul} alt="" />
+          <img className='charlton' src={paul} alt="" />
           <h2>Paul Muga</h2>
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: mugapaul@gmail.com</p>
@@ -86,7 +86,7 @@ function Team({name,image,email,phone,}) {
         </div>
 
         <div className="team__card">
-          <img src={charlton} alt="" />
+          <img className='charlton' src={charlton} alt="" />
           <h2>Charlton Mawira</h2>
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: mawiracharlton@gmail.com</p>

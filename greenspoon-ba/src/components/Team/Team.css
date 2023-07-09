@@ -71,6 +71,9 @@
 .rights{
     text-align: center;
 }
+.team__card .charlton{
+    height: 170px;
+}
 /* Media Queries */
 
 /* Small devices (up to 576px) */
