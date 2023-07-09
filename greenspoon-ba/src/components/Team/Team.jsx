@@ -9,7 +9,7 @@ import charlton from './../../assets/images/charlton.jpg'
 import paul from './../../assets/images/paul.jpg'
 function Team({name,image,email,phone,}) {
   return (
-    <div>
+    <div className='team-main'>
       <p>We are a Strong,Energetic team consisting of young people passionately Educating people about Greenspoon and how to make shopping easy through it. </p>
       <div className='team__container'>
         <div className="team__card team__lead">
@@ -67,20 +67,11 @@ function Team({name,image,email,phone,}) {
           <p><span className="span-style">Phone</span>:0708241067</p>
         </div>
 
-        {/*
-        
-
-       
-
-
-
-        <div className="team__card">
-          <img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-          <h2>Michael Kamiri Mbugua</h2>
-          <p><span className="span-style">Email</span>: kamirimichael369@gmail.com</p>
-          <p><span className="span-style">Phone</span>:0702405186</p>
-        </div> */}
     </div>
+    <div className="rights">
+    <h5>all rights reserved</h5>
+    </div>
+
     </div>
   )
 }
