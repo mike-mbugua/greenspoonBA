@@ -30,7 +30,7 @@ function Team({name,image,email,phone,}) {
           <h2>Michael Kamiri Mbugua</h2>
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: kamirimichael369@gmail.com</p>
-          <a href='tel:0702405186'><span className="span-style">Phone</span>:0702405186</a>
+          <p><span className="span-style">Phone</span><a href='tel:0702405186'>:0702405186</a> </p>
         </div>
 
         
