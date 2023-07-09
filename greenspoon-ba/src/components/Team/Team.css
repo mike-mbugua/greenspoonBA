@@ -4,7 +4,7 @@
   margin: 0px;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 5px;
   justify-content: center;
   width: calc(100% - 20px);
 }
@@ -58,8 +58,15 @@
 
 /* Small devices (up to 576px) */
 @media only screen and (max-width: 576px) {
+    .team__container .team__card{
+        place-items: center;
+        /* align-items: center; */
+        text-align: center;
+        margin: 0%;
+        box-sizing: border-box;
+    }
   .team__card {
-    width: 100%;
+    width: 98%;
     height: 260px;
 
   }

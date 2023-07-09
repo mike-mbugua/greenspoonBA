@@ -18,7 +18,9 @@ function Nav() {
     </div>
 
     </div>
-    <img src={greenBanner} alt="" width="100%" />
+    <div className="green-banner">
+      <img src={greenBanner} alt="" width="100%" />
+    </div>
    </div>
   )
 }
