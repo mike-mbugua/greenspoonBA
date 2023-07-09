@@ -6,6 +6,7 @@ import kiki from './../../assets/images/Kiki Greenspoon 20230708_073657.jpg'
 import mary from './../../assets/images/Mary Greenspoon 20230708_083258.jpg'
 import daisy from './../../assets/images/daisy.jpg'
 import charlton from './../../assets/images/charlton.jpg'
+import paul from './../../assets/images/paul.jpg'
 function Team({name,image,email,phone,}) {
   return (
     <div>
@@ -50,7 +51,7 @@ function Team({name,image,email,phone,}) {
         </div>
 
         <div className="team__card">
-          <img src="" alt="" />
+          <img src={paul} alt="" />
           <h2>Paul Muga</h2>
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: mugapaul@gmail.com</p>
