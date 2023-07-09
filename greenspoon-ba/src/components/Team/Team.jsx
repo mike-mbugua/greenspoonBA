@@ -7,6 +7,9 @@ import mary from './../../assets/images/Mary Greenspoon 20230708_083258.jpg'
 import daisy from './../../assets/images/daisy.jpg'
 import charlton from './../../assets/images/charlton.jpg'
 import paul from './../../assets/images/paul.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMailReply, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faMessage } from '@fortawesome/free-regular-svg-icons'
 function Team({name,image,email,phone,}) {
   
   return (
@@ -17,6 +20,8 @@ function Team({name,image,email,phone,}) {
           <img src={daisy} alt="" />
           <h2>Daisy</h2>
           <h4>Growth Manager</h4>
+          
+          
           
         </div>
         <div className="team__card team__lead">
@@ -30,7 +35,12 @@ function Team({name,image,email,phone,}) {
           <h2>Michael Kamiri Mbugua</h2>
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: kamirimichael369@gmail.com</p>
-          <p><span className="span-style">Phone</span><a href='tel:0702405186'>:0702405186</a> </p>
+          <p><span className="span-style">Phone</span><a href='sms:0702405186'>:0702405186</a> </p>
+          <div className="comunicate">
+          <a href="tel:0702405186"><FontAwesomeIcon icon={faPhone} color='#008600'/></a>
+          <a href="sms:0702405186"><FontAwesomeIcon icon={faMessage} color='#008600'/></a>
+          <a href="mailto:kamirimichael369@gmail.com"><FontAwesomeIcon icon={faEnvelope} color='#008600'/></a>
+          </div>
         </div>
 
         
@@ -41,6 +51,11 @@ function Team({name,image,email,phone,}) {
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: njokichristine@gmail.com</p>
           <p><span className="span-style">Phone</span>:0717403198</p>
+          <div className="comunicate">
+          <a href="tel:0717403198"><FontAwesomeIcon icon={faPhone} color='#008600'/></a>
+          <a href="sms:0717403198"><FontAwesomeIcon icon={faMessage} color='#008600'/></a>
+          <a href="mailto:njokichristine@gmail.com"><FontAwesomeIcon icon={faEnvelope} color='#008600'/></a>
+          </div>
         </div>
 
         <div className="team__card">
@@ -49,6 +64,11 @@ function Team({name,image,email,phone,}) {
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: delvinkimani@gmail.com</p>
           <p><span className="span-style">Phone</span>:0796231762</p>
+          <div className="comunicate">
+          <a href="tel:0796231762"><FontAwesomeIcon icon={faPhone} color='#008600'/></a>
+          <a href="sms:0796231762"><FontAwesomeIcon icon={faMessage} color='#008600'/></a>
+          <a href="mailto:delvinkimani@gmail.com"><FontAwesomeIcon icon={faEnvelope} color='#008600'/></a>
+          </div>
         </div>
 
         <div className="team__card">
@@ -57,6 +77,11 @@ function Team({name,image,email,phone,}) {
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: mugapaul@gmail.com</p>
           <p><span className="span-style">Phone</span>:0719553812</p>
+          <div className="comunicate">
+          <a href="tel:0719553812"><FontAwesomeIcon icon={faPhone} color='#008600'/></a>
+          <a href="sms:0719553812"><FontAwesomeIcon icon={faMessage} color='#008600'/></a>
+          <a href="mailto:mugapaul@gmail.com"><FontAwesomeIcon icon={faEnvelope} color='#008600'/></a>
+          </div>
 
         </div>
 
@@ -66,6 +91,11 @@ function Team({name,image,email,phone,}) {
           <h4>Brand Ambassador</h4>
           <p><span className="span-style">Email</span>: mawiracharlton@gmail.com</p>
           <p><span className="span-style">Phone</span>:0708241067</p>
+          <div className="comunicate">
+          <a href="tel:0708241067"><FontAwesomeIcon icon={faPhone} color='#008600'/></a>
+          <a href="sms:0708241067"><FontAwesomeIcon icon={faMessage} color='#008600'/></a>
+          <a href="mailto:mawiracharlton@gmail.com"><FontAwesomeIcon icon={faEnvelope} color='#008600'/></a>
+          </div>
         </div>
 
     </div>
