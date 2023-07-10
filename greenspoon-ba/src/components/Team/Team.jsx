@@ -16,7 +16,7 @@ function Team({name,image,email,phone,}) {
     <div className='team-main'>
       <p>We are a Strong,Energetic team consisting of young people passionately Educating people about Greenspoon and how to make shopping easy through it. </p>
       <div className='team__container'>
-        <div className="team__card team__lead">
+        <div className="team__lead">
           <img src={daisy} alt="" />
           <h2>Daisy</h2>
           <h4>Growth Manager</h4>
@@ -24,8 +24,8 @@ function Team({name,image,email,phone,}) {
           
           
         </div>
-        <div className="team__card team__lead">
-          <img src={mary} alt="" />
+        <div className="team__lead">
+          <img src={mary} alt=""  />
           <h2>Mary</h2>
           <h4>Team lead</h4>
         </div>
