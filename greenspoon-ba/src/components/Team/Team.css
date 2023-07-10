@@ -67,8 +67,8 @@
     flex-direction: column;
     border: 1px solid var(--secondary-color);
   /* border: 2px solid var(--ast-global-color-6); */
-  width: 200px;
-  height: 300px;
+  width: 190px;
+  height: 250px;
   border-radius: 10px;
   align-items: center;
   color: white;

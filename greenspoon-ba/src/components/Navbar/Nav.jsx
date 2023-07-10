@@ -3,6 +3,9 @@ import './Nav.css'
 import greenBanner from '../../assets/images/Greenspoon-Go-Homepage-Banner-1400x468.jpg'
 import greenLogo from './../../assets/images/greenspoon-logo.svg'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronDown, faHouse, faTruck } from '@fortawesome/free-solid-svg-icons'
+import { faBuilding, faCalendar } from '@fortawesome/free-regular-svg-icons'
 function Nav() {
   return (
    <div className="navbar__main-container">
@@ -12,7 +15,33 @@ function Nav() {
         </div>
     <div className="navLinks">
         <Link to={"/team"}>Team</Link>
-        <Link to={"/events"}>Events</Link> 
+        <div className="dropdown">
+          <div className="content">
+            <div className="icons">
+            <p>Events</p>
+            <FontAwesomeIcon icon={faChevronDown} color='white'/>
+            </div>
+          </div>
+          <button type='button'></button>
+          <div className="menu">
+            <div className="icons">
+              <FontAwesomeIcon icon={faTruck} size='' color='white'/>
+              <a href="">Drive Run</a>
+            </div>
+            <div className="icons">
+              <FontAwesomeIcon icon={faHouse} color='white'/>
+              <a href="">Serviced Aparts</a>
+            </div>
+            <div className="icons">
+              <FontAwesomeIcon icon={faCalendar} color='white'/>
+              <a href="">Upcoming Events</a>
+            </div>
+            <div className="icons">
+              <FontAwesomeIcon icon={faTruck} color='white'/>
+              <a href="">Visited Aparts</a>
+            </div>
+          </div>
+        </div>
         <Link to={"/schedule"}>Schedule</Link> 
 
     </div>
