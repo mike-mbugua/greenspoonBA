@@ -26,19 +26,19 @@ function Nav() {
           <div className="menu">
             <div className="icons">
               <FontAwesomeIcon icon={faTruck} size='' color='white'/>
-              <a href="">Drive Run</a>
+              <a href="/drive-runs">Drive Run</a>
             </div>
             <div className="icons">
               <FontAwesomeIcon icon={faHouse} color='white'/>
-              <a href="">Serviced Aparts</a>
+              <a href="/serviced-apartments">Serviced Aparts</a>
             </div>
             <div className="icons">
               <FontAwesomeIcon icon={faCalendar} color='white'/>
-              <a href="">Upcoming Events</a>
+              <a href="/upcoming-events">Upcoming Events</a>
             </div>
             <div className="icons">
               <FontAwesomeIcon icon={faTruck} color='white'/>
-              <a href="">Visited Aparts</a>
+              <a href="/visited-apartments">Visited Aparts</a>
             </div>
           </div>
         </div>
